@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button'
+import ButtonPuss from './Button'
 // import logo from './logo.svg';
 // import BlueButton from './BlueButton';
 // import RedButton from './RedButton';
@@ -9,7 +9,7 @@ import Button from './Button'
 const App = () => (
   <>
     <h2>Buttons</h2>
-    <Button color={'black'} backgroundcolor={'yellow'}></Button>
+    <ButtonPuss color={'black'} backgroundcolor={'yellow'} text={'coolt'}></ButtonPuss>
     {/* <BlueButton>En blå knapp</BlueButton>
     <RedButton>En röd knapp</RedButton>
     <YellowButton>En gul knapp</YellowButton> */}

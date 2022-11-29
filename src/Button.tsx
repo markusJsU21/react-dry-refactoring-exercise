@@ -4,9 +4,10 @@ import styled from 'styled-components';
 interface ButtonInterface {
     color: string,
     backgroundcolor: string,
+    text: string
   }
 
-const styleButton = styled.button`
+const StyleButton = styled.button`
 padding: 10px;
 border: 0;
 border-radius: 5px;
@@ -18,10 +19,10 @@ cursor: pointer;
 }
 `
 
-const Button = (props:ButtonInterface):  => {
+const ButtonPuss = ({color, backgroundcolor, text}: ButtonInterface): JSX.Element  => {
     return <>
-    <styleButton></styleButton>
+    <StyleButton style={{ color: color, backgroundColor: backgroundcolor }}>{text}</StyleButton>
     </>
 }
 
-export default Button
+export default ButtonPuss

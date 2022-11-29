@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 
 interface ButtonInterface {
@@ -17,8 +18,10 @@ cursor: pointer;
 }
 `
 
-const Button = (props:ButtonInterface): JSX.Element => {
-    return  <button style={color:props.color}></button>
+const Button = (props:ButtonInterface):  => {
+    return <>
+    <styleButton></styleButton>
+    </>
 }
 
 export default Button

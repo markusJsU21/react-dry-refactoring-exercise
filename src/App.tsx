@@ -2,17 +2,18 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import BlueButton from './BlueButton';
-import RedButton from './RedButton';
-import YellowButton from './YellowButton';
-
+import Button from './Button';
+// import BlueButton from './BlueButton';
+// import RedButton from './RedButton';
+// import YellowButton from './YellowButton';
 
 const App = () => (
   <>
     <h2>Buttons</h2>
-    <BlueButton>En blå knapp</BlueButton>
+    <Button color={'black'} background-color={'yellow'}></Button>
+    {/* <BlueButton>En blå knapp</BlueButton>
     <RedButton>En röd knapp</RedButton>
-    <YellowButton>En gul knapp</YellowButton>
+    <YellowButton>En gul knapp</YellowButton> */}
   </>
 )
 
